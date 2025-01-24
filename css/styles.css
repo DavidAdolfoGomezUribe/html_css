@@ -178,5 +178,42 @@ body{
         width: 11.13vw;
         height: auto;
     }
+}
+
+.textbox1{
+    position: absolute;
+    top:134.51vw;
+    left: 6.875vw;
+    font-size: 3.81vw ;
+    color: white;
+
+}
+
+.textbox2{
+    position: absolute;
+    top:191.59vw;
+    left: 6.875vw;
+    font-size: 3.81vw ;
+    color: white;
+
+}
+
+.textbox3{
+
+    position: absolute;
+    top:253.26vw;
+    left: 6.875vw;
+    font-size: 3.81vw ;
+    color: white;
+    
+}
+
+.textbox4{
+    position: absolute;
+    top: 264.58vw;
+    color: white;
+    left: 3.47vw;
+    
+
 
 }
