@@ -2,7 +2,7 @@
 
 
 *{margin: 0; padding: 0; 
-    /*outline: 1px solid tomato;*/
+    outline: 1px solid tomato;
 }
 *::before, *::after{box-sizing: border-box;}
 body{min-height: 100dvh;}
@@ -20,6 +20,10 @@ scroll-behavior: auto !important;
 transition: none;
 }
 }
+
+
+
+ 
 
 body{
     background-color:rgba(7, 25, 23, 1);
@@ -213,7 +217,44 @@ body{
     top: 264.58vw;
     color: white;
     left: 3.47vw;
+
+}
+
+@media screen and (min-width: 1440px){
+
     
+    main{
+        position: relative;
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    .flextext{
+        left: 287px;
+        top: 332px;
+        gap: 17px;
+        width: 626px;
+        height: 360px;
+    
+        h2{
+            font-size: 28px ;
+            color: white;
+        }
+        h1{
+            font-size: 80px;
+            color: white;
+        }
+        p{
+            font-size: 20px ;
+            color: white;
+            width: 379px;
+        }
+    
+    }
 
 
 }
+
+/*
+}
+*/
