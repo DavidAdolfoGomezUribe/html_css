@@ -2,7 +2,7 @@
 
 
 *{margin: 0; padding: 0; 
-    outline: 1px solid tomato;
+    /*outline: 1px solid tomato;*/
 }
 *::before, *::after{box-sizing: border-box;}
 body{min-height: 100dvh;}
@@ -52,40 +52,48 @@ body{
     }
 
     .pnav{
+        
+        font-family: "Montserrat-SemiBold.ttf";
         position: absolute;
-        p:nth-child(1){
+        
+            a:nth-child(1){
             font-size: 1.18vw;
             position: absolute;
             top: 1.45vw;
             left: 69.79vw;
             color: white;
-        }
-
-        p:nth-child(2){
-            font-size: 1.18vw;
-            position: absolute;
-            top: 1.45vw;
-            left: 77.70vw;
-            color: white;
-        }
-
-        p:nth-child(3){
-            font-size: 1.18vw;
-            position: absolute;
-            top: 1.45vw;
-            left: 86.11vw;
-            color: white;
+            cursor: pointer;
+            }   
+        
+            
+            a:nth-child(2){
+                font-size: 1.18vw;
+                position: absolute;
+                top: 1.45vw;
+                left: 77.70vw;
+                color: white;
+                cursor: pointer;
+            }
+            
+            a:nth-child(3){
+                font-size: 1.18vw;
+                position: absolute;
+                top: 1.45vw;
+                left: 86.11vw;
+                color: white;
+                cursor: pointer;
+                }
+            
         }
     }
-}
-
-.bgimg{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    height: auto;
-    z-index: -1;
     
+    .bgimg{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        height: auto;
+        z-index: -1;
+        
     img{
         width: 100%;
     }
@@ -112,19 +120,24 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1.18vw;
+    
 
     h2{
         font-size: 1.94vw ;
         color: white;
+        font-family: "Montserrat-SemiBold.ttf";
+
     }
     h1{
         font-size: 5.5vw;
         color: white;
+        font-family: "Montserrat-SemiBold.ttf";
     }
     p{
         font-size: 1.38vw;
         color: white;
-        width: 22vw;
+        width: 28vw;
+        font-family: "Montserrat-Medium.ttf";
     }
 
 }
@@ -191,6 +204,7 @@ body{
     left: 6.875vw;
     font-size: 3.81vw ;
     color: white;
+    font-family: "Montserrat-SemiBold.ttf";
 
 }
 
@@ -200,6 +214,7 @@ body{
     left: 6.875vw;
     font-size: 3.81vw ;
     color: white;
+    font-family: "Montserrat-SemiBold.ttf";
 
 }
 
@@ -210,6 +225,7 @@ body{
     left: 6.875vw;
     font-size: 3.81vw ;
     color: white;
+    font-family: "Montserrat-SemiBold.ttf";
     
 }
 
@@ -219,6 +235,7 @@ body{
     color: white;
     left: 3.47vw;
     font-size: 3.125vw;
+    font-family: "Montserrat-Medium.ttf";
 
 }
 
@@ -244,7 +261,7 @@ body{
         display: flex;
         flex-direction: column;
         box-shadow: 1vw 1vw 8px rgb(0, 0, 0);
-        
+        color: white;
         img{
             position: absolute;
             top: 1.8vw;
@@ -255,6 +272,8 @@ body{
         }
 
         h1{
+            font-family: "Montserrat-SemiBold.ttf";
+            font-size: 1.94vw;
             position: absolute;
             top: 19.58vw;
             width: 23.75vw;
@@ -265,6 +284,8 @@ body{
 
         p{
             position: absolute;
+            font-size: 1.33vw;
+            font-family: "Montserrat-Regular.ttf";
             top: 25.55vw;
             width: 23.75vw;
             height: auto;
@@ -274,17 +295,20 @@ body{
 
         button{
             position: absolute;
+            font-family: "Montserrat-Regular.ttf";
             top: 34.02vw;
             border-radius: 1.66vw;
             height: auto;
             display: flex;
             align-self: center;
             justify-content: center;
-
-            width: 7.66vw;
-            height: auto;
+            align-items: center;
+            font-size: 1.33vw;
+            width: 8.7vw;
+            height: 3vw;
             background-color:rgba(217, 217, 217, 1) ;
             cursor: pointer;
+            border: none;
 
         }
     }
@@ -310,8 +334,6 @@ body{
     
 
 }
-
-
 
 
 
@@ -510,6 +532,81 @@ body{
         left: 50px;
         font-size: 45px;
     
+    }
+    
+    .slider{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        top: 3894px;
+        width: 100%;
+        overflow-x: scroll;
+        padding-bottom: 25 ; 
+        box-sizing: content-box; 
+    
+        
+        
+        div{
+            background-color:rgba(20, 94, 42, 1) ;
+            width: 385px;
+            height: 627px;
+            flex-shrink: 0;
+            border-radius: 35px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 10px 10px 8px rgb(0, 0, 0);
+            color: white;
+            
+            img{
+                position: absolute;
+                top: 26px;
+                width: 342px;
+                height: 232px;
+                display: flex;
+                align-self: center;
+            }
+    
+            h1{
+                
+                font-size: 28px;
+                position: absolute;
+                top: 282px;
+                width: 330px;
+                height: auto;
+                display: flex;
+                align-self: center;
+            }
+    
+            p{
+                position: absolute;
+                font-size: 20px;
+                font-family: "Montserrat-Regular.ttf";
+                top: 368px;
+                width: 342px;
+                height: auto;
+                display: flex;
+                align-self: center;
+            }
+    
+            button{
+                position: absolute;
+                font-family: "Montserrat-Regular.ttf";
+                font-size: 20px;
+                top: 500px;
+                border-radius: 24pxvw;
+                height: auto;
+                display: flex;
+                align-self: center;
+                justify-content: center;
+                align-items: center;
+                width: 145px;
+                height: 40px;
+                background-color:rgba(217, 217, 217, 1) ;
+                cursor: pointer;
+    
+            }
+        }
     }
     
 
