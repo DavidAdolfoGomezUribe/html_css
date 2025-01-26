@@ -1,0 +1,140 @@
+@import url(variable.css);
+
+*{margin: 0; padding: 0; 
+    outline: 1px solid tomato;
+}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+img, video, svg{height: auto; max-width: 100%;}
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+body{
+    background-color: rgba(7, 25, 23, 1);
+    height: auto;
+}
+
+.navimg{
+    width: 100%;
+    
+    img:nth-child(1){
+        position: absolute;
+        left: 0.34vw;
+        top: 0.625vw;
+        width: 3.33vw;
+        height: 3.33vw;
+}
+
+    img:nth-child(2){
+        position: absolute;
+        left: 92.916vw;
+        top: 1.159vw;
+        width: 1.38;
+        height: auto;
+
+
+    }
+
+    
+    img:nth-child(3){
+        position: absolute;
+        left: 95.55vw;
+        top: 1.159vw;
+        width: 1.19vw;
+        height: auto;
+
+    }
+
+}
+
+.navmenu{
+    font-family: "Montserrat-SemiBold.ttf";
+    font-size: 1.18vw;
+    
+    
+    a:nth-child(1){
+        color: white;
+        position: absolute;
+        left:62.84vw;
+        top:1.45vw;
+        text-decoration: none;
+        
+    }
+
+    a:nth-child(2){
+        color: white;
+        position: absolute;
+        left:69.79vw;
+        top:1.45vw;
+        text-decoration: none;
+    }
+
+    a:nth-child(3){
+        color: white;
+        position: absolute;
+        left:77.70vw;
+        top:1.45vw;
+        text-decoration: none;
+    }
+
+
+
+}
+
+
+
+.line{
+    position: absolute;
+    left: 4.09vw;
+    width: 91.80vw;
+    top: 7.291vw;
+    height: 2px;
+    background-color: white;
+}
+
+.navsubmenu{
+    button{
+        position: absolute;
+        left: 6.527vw;
+        top: 7.84vw;
+        width: 7.84vw ;
+        height: 1.94vw;
+        background-color: rgba(20, 94, 42, 1) ;
+        border-radius: 0.347vw;
+        border: none;
+        color: white;
+        font-size: 1.041vw;
+        font-family: "Montserrat-Medium.ttf";
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: rgb(12, 51, 24) ;
+
+    }
+
+    div{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        width: 51.45vw;
+        height:auto;
+        left: 23.81vw;
+        top: 8.05vw ;
+        justify-content: space-between;
+        color:white;
+        
+        }
+
+}
